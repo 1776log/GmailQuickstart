@@ -15,5 +15,9 @@ dependencies {
     implementation 'com.google.oauth-client:google-oauth-client-jetty:1.32.1'
     implementation 'com.google.apis:google-api-services-gmail:v1-rev20211108-1.32.1'
     implementation 'io.rest-assured:rest-assured:5.1.1'
+    // https://mvnrepository.com/artifact/javax.mail/mail
+    implementation group: 'javax.mail', name: 'mail', version: '1.4.1'
+
+
 
 }
